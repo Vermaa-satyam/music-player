@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+ <div class="main-div">
+    <div class="music-container">
+        <h2 id="title">kesariya</h2>
+        <h3 id="artist">ariji singh</h3>
+        <div class="image-container">
+             <img src="photo/kesariya song.jpg" alt=""> 
+        </div>
+        <audio src="music/satyam-1.mp3" ></audio>
+
+         <!-- progress bar -->
+
+         <div class="progress-container" id="progress-container">
+            <div class="progress-meter-meter">
+                <div id="current-time">0:00</div>
+                <div id="duration">4:28</div>
+            </div>
+            <div class="progress-div" id="progress-div">
+                <div class="progress" id="progress">
+
+                </div>
+            </div>
+         </div>
+
+                                 
+
+
+
+        <!-- controlls -->
+        <div class="music-contols">
+            <i class="ri-arrow-left-double-line fas" id="prev" title="previous"></i>
+            <i class="ri-play-large-fill fas main-button" id="play" title="play"></i>
+            <i class="ri-arrow-right-double-line fas" id="next" title="next"></i>
+
+        </div>
+         
+    </div>
+ </div>
+    <script src="style.js"></script>
+</body>
+</html>
